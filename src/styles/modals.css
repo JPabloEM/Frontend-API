@@ -1,0 +1,79 @@
+/* CrearActuacion.css */
+
+.CrearSoli {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Asegura que el formulario ocupe el 100% del ancho */
+  }
+  
+  .div-input-tipo {
+    margin-bottom: 15px;
+    width: 80%; /* Ancho del contenedor de etiqueta e input */
+  }
+  
+  .label-input {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  
+  .btnCrear {
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: #3a8f45;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnCrear:hover {
+    background-color: #26572d;
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .btnCerrarModal {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #c52b2b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnCerrarModal:hover {
+    background-color: #eb3838;
+  }
+  

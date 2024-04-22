@@ -1,0 +1,89 @@
+/* Estilos para la página de ListaPais */
+.type-registration {
+  margin: 20px;
+}
+
+.Namelist {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btnAgregarDesdeAdmin {
+  background-color: #3a8f45;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btnAgregarDesdeAdmin:hover{
+
+  background-color: #183a1c;
+}
+
+.Div-Table {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 400px; /* Altura máxima del contenedor */
+  overflow-y: auto; /* Barra de desplazamiento vertical si es necesario */
+  overflow-x: auto;
+  display: contents;
+}
+
+.Table {
+  width: 50%; /* 100% del ancho del contenedor */
+  border-collapse: collapse;
+}
+
+.Table th,
+.Table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.Table th {
+  background-color: #183a1c;
+  color: white;
+}
+
+.btnEliminar {
+  background-color: #DC3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btnModificar {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+/* Estilos para la paginación */
+.pagination {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  color: #183a1c;
+  text-decoration: none;
+}
+
+.active a {
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #34803c; /* Color de fondo de la barra lateral */
+    width: 200px;
+    transition: width 0.3s ease; /* Efecto de transición al expandir/colapsar */
+    color: white; /* Color del texto en la barra lateral */
+    position: fixed;
+    height: 100%;
+    overflow-y: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .bars {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .link:hover {
+    background-color: #4aad54; /* Color de fondo al pasar el mouse sobre el enlace */
+  }
+  
+  .active {
+    background-color: #ffffff; /* Color de fondo del enlace activo */
+  }
+  
+  .link .icon {
+    margin-right: 10px;
+  }
+  
+  .link_text {
+    display: none;
+  }
+  
+  main {
+    flex: 1; /* Toma el espacio restante */
+    padding: 20px;
+    margin-left: 200px; /* Ancho de la barra lateral */
+    transition: margin-left 0.3s ease; /* Efecto de transición al expandir/colapsar */
+  }
+  
